@@ -1,5 +1,5 @@
 # Mirage-Source-Engine
-This is a incompletet reworking of the Mirage Source 3.0.3 Engine.
+This is a incomplete reworking of the Mirage Source 3.0.3 Engine.
 Mirage Source is GNU.
 see below
 This repository is for Mirage Source users, who wish to watch the progress of Mirage Source 2D C++ conversion
