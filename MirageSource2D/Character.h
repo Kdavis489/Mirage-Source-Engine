@@ -2,6 +2,7 @@
 #define CHARACTER_H
 #include "Includes.h"
 #include "Inventory.h"
+#include "Spellbook.h"
 
 class Character
 {

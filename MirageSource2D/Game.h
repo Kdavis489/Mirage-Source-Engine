@@ -27,9 +27,12 @@ private:
 	//constants
 	int choice;
 	bool playing;
+
 	int activeCharacter;
 	std::vector<Character> characters;
 	std::string filename;
+	char nameBuf[256];
+	char descBuf[256];
 		/*const int WINDOW_WIDTH;
 		* const int WINDOW_HEIGHT;
 		* int framebufferWidth;
