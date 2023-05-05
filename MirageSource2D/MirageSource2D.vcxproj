@@ -179,11 +179,22 @@
     <ClInclude Include="Libraries\includes\stb\stb_image.h" />
     <ClInclude Include="msResult.h" />
     <ClInclude Include="Network.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="Socket.h" />
     <ClInclude Include="socketHandle.h" />
     <ClInclude Include="sockOptions.h" />
     <ClInclude Include="Spell.h" />
     <ClInclude Include="Spellbook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fShader.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

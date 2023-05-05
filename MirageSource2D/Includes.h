@@ -13,6 +13,7 @@
 #include "Socket.h"
 #include "Character.h"
 #include "Inventory.h"
+#include "Shader.h"
 
 
 //graphics such goes here.

@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Map">
       <UniqueIdentifier>{014a6c0f-b542-4186-aa4e-338999332707}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{f658e3ce-d9d4-4044-8178-846816600a16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -170,5 +173,26 @@
     <ClInclude Include="Spellbook.h">
       <Filter>Header Files\Character</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Resource Files\shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vShader.vs">
+      <Filter>Resource Files\shader</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fShader.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
